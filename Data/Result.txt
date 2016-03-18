@@ -1,0 +1,81 @@
+------K2------var_elim_inf_engine------Complete
+Original Data: (max_fan_in: n_nodes)
+Love_Naka2Ekman = 0.891252955082742
+Love_Ekman2Naka = 0.726950354609929
+Apple_Naka2Ekman = 0.907801418439716
+Apple_Ekman2Naka = 0.895035460992908
+
+Filtered Data (n_workers:30£¬max_fan_in: 0):
+Love_Naka2Ekman = 0.929078014184397
+Love_Ekman2Naka = 0.751063829787234
+Apple_Naka2Ekman = 0.923167848699764
+Apple_Ekman2Naka = 0.758156028368794
+Average = 0.840366430260047
+
+Filtered Data (n_workers:30£¬max_fan_in: 1):
+Love_Naka2Ekman = 0.789598108747045
+Love_Ekman2Naka = 0.712056737588653
+Apple_Naka2Ekman = 0.926713947990544
+Apple_Ekman2Naka = 0.837588652482270
+Average = 0.816489361702128
+
+Filtered Data (n_workers:30£¬max_fan_in: 2):
+Love_Naka2Ekman = 0.888888888888889
+Love_Ekman2Naka = 0.713475177304965
+Apple_Naka2Ekman = 0.918439716312057
+Apple_Ekman2Naka = 0.853900709219858
+Average = 0.843676122931442
+
+Filtered Data (n_workers:30£¬max_fan_in: 3):
+Love_Naka2Ekman = 0.864066193853428
+Love_Ekman2Naka = 0.719148936170213
+Apple_Naka2Ekman = 0.906619385342790
+Apple_Ekman2Naka = 0.872340425531915
+Average = 0.840543735224586
+
+Filtered Data (n_workers:30£¬ max_fan_in: 4~n_nodes):
+Love_Naka2Ekman = 0.864066193853428
+Love_Ekman2Naka = 0.739716312056738
+Apple_Naka2Ekman = 0.906619385342790
+Apple_Ekman2Naka = 0.872340425531915
+Average = 0.845685579196218
+
+------MCMC------var_elim_inf_engine------Complete
+Filtered Data (n_workers:30):
+Love_Naka2Ekman = 0.901891252955083
+Love_Ekman2Naka = 0.771631205673759
+Apple_Naka2Ekman = 0.803782505910166
+Apple_Ekman2Naka = 0.874468085106383
+Average = 0.837943262411348
+
+------MCMC------jtree_inf_engine------Complete
+Filtered Data (n_workers:30):
+Love_Naka2Ekman = 0.756501182033097
+Love_Ekman2Naka = 0.846808510638298
+Apple_Naka2Ekman = 0.807328605200946
+Apple_Ekman2Naka = 0.849645390070922
+Average = 0.815070921985816
+
+------MCMC------belprop_inf_engine------Complete
+Filtered Data (n_workers:30):
+Love_Naka2Ekman = 0.898345153664303
+Love_Ekman2Naka = 0.891489361702128
+Apple_Naka2Ekman = 0.885342789598109
+Apple_Ekman2Naka = 0.907092198581560
+Average = 0.895567375886525
+
+------MCMC------belprop_inf_engine------Missing-2
+Filtered Data (n_workers:30):
+Love_Naka2Ekman = 0.823877068557920
+Love_Ekman2Naka = 0.884397163120567
+Apple_Naka2Ekman = 0.854609929078014
+Apple_Ekman2Naka = 0.821276595744681
+Average = 0.846040189125295
+
+------MCMC------belprop_inf_engine------Missing-10(default)
+Filtered Data (n_workers:30):
+Love_Naka2Ekman = 0.839243498817967
+Love_Ekman2Naka = 0.897163120567376
+Apple_Naka2Ekman = 0.690307328605201
+Apple_Ekman2Naka = 0.889361702127660
+Average = 0.829018912529551
