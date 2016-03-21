@@ -94,7 +94,7 @@ function BN = LearnBN(SourceGolds, SourceTaxonomy, TargetAnnotations, TargetTaxo
         clear i
         target_order = Map2Order(target_label_freq_map, TargetTaxonomy);
         BN.Order = [source_order, target_order];
-        BN.DAG = VARIABLES.struct_learning(cases_matrix, ns, BN.Order, 'max_fan_in', n_labels); %n_labels: default
+        BN.DAG = learn_struct_K2(cases_matrix, ns, BN.Order, 'max_fan_in', n_labels); %n_labels: default
     elseif strcmp(VARIABLES.struct_learning, 'MCMC')
         [dag, accept_ratio, num_edges] = learn_struct_mcmc(cases_matrix, ns);
         BN.DAG = dag{end}; %越往后越好

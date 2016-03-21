@@ -2,9 +2,9 @@ clearvars
 system('taskkill /F /IM EXCEL.EXE'); clear ans
 %% Parameters
 global VARIABLES
-VARIABLES.struct_learning = 'MCMC'; % learn_struct_K2 | learn_struct_mcmc
+VARIABLES.struct_learning = 'MCMC'; % K2 | MCMC
+VARIABLES.params_learn = 'Complete'; % Complete | Missing
 VARIABLES.inference_engine = @belprop_inf_engine; % global_joint_inf_engine | jtree_inf_engine | belprop_inf_engine
-VARIABLES.params_learn = 'Complete'; %Complete | Missing
 %% Taxonomies (labels and IDs)
 Taxonomies.Naka = struct('N_yorokobi', 1, 'N_suki', 2, 'N_yasu', 3, 'N_ikari', 4, 'N_aware', 5, 'N_kowa', 6, 'N_haji', 7, 'N_iya', 8, 'N_takaburi', 9, 'N_odoroki', 10);
 Taxonomies.Ekman = struct('E_anger', 11, 'E_sadness', 12, 'E_joy', 13, 'E_disgust', 14, 'E_surprise', 15, 'E_fear', 16);
